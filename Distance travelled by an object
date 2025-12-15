@@ -1,0 +1,15 @@
+#include <stdio.h>
+int main() {
+ double speed, time, distance;
+ 
+ printf("Enter the speed (m/s): ");
+ scanf("%lf", &speed);
+ 
+ printf("Enter the time (s): ");
+ scanf("%lf", &time);
+ 
+ distance = speed * time;
+ 
+ printf("Distance traveled: %.2lf meters\n", distance);
+ return 0;
+} 
